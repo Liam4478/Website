@@ -1,3 +1,4 @@
+
 .switch {
   font-size: 17px;
   position: relative;
@@ -24,7 +25,7 @@
   right: 0;
   bottom: 0;
   background-color: var(--background);
-  transition: background-color 0.5s, transform 0.5s; /* Added transform transition */
+  transition: 0.5s;
   border-radius: 30px;
 }
 
@@ -38,7 +39,7 @@
   bottom: 15%;
   box-shadow: inset 8px -4px 0px 0px #ececd9, -4px 1px 4px 0px #dadada;
   background: var(--background);
-  transition: background-color 0.5s, transform 0.5s; /* Added transform transition */
+  transition: 0.5s;
 }
 
 .decoration {
@@ -53,16 +54,16 @@
   backdrop-filter: blur(10px);
   transition: all 0.5s;
   box-shadow: -7px 10px 0 #e5f041e6, 8px 15px 0 #e5f041e6, -17px 1px 0 #e5f041e6,
-  -20px 10px 0 #e5f041e6, -7px 23px 0 #e5f041e6, -15px 25px 0 #e5f041e6;
+    -20px 10px 0 #e5f041e6, -7px 23px 0 #e5f041e6, -15px 25px 0 #e5f041e6;
 }
 
 input:checked ~ .decoration {
-  transform: translateX(20px);
+  transform: translateX(-20px);
   width: 10px;
   height: 10px;
   background: white;
   box-shadow: -12px 0 0 white, -6px 0 0 1.6px white, 5px 15px 0 1px white,
-  1px 17px 0 white, 10px 17px 0 white;
+    1px 17px 0 white, 10px 17px 0 white;
 }
 
 input:checked + .slider {

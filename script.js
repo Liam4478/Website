@@ -1,9 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const toggleMode = document.getElementById('toggle-mode');
-    const hamburger = document.getElementById('hamburger');
-    const mobileMenu = document.getElementById('mobileMenu');
-
-    // Check localStorage for theme preference
+    const toggleMode = document.getElementById('switch'); 
     if (localStorage.getItem('theme') === 'dark') {
         document.body.classList.add('dark-mode');
         toggleMode.checked = true;
@@ -11,7 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
         localStorage.setItem('theme', 'light');
     }
 
-    // Toggle dark mode and save preference in localStorage
     toggleMode.addEventListener('click', function() {
         document.body.classList.toggle('dark-mode');
         if (document.body.classList.contains('dark-mode')) {
@@ -20,6 +15,8 @@ document.addEventListener('DOMContentLoaded', () => {
             localStorage.setItem('theme', 'light');
         }
     });
+
+
 
     // Toggle mobile menu visibility
     hamburger.addEventListener('click', () => {

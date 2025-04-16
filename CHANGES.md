@@ -1,6 +1,6 @@
 #Changelog
 
-## 2025-04-15 4 hours
+## 2025-04-15 6 hours
 
 - Added links and buttons to the navbar.
 
