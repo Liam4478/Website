@@ -1,5 +1,9 @@
 #Changelog
 
+## 2025-04-16 0 hours
+
+Sadly, did not do anything today. Rest was required (Somewhat).
+
 ## 2025-04-15 6 hours
 
 - Added links and buttons to the navbar.
