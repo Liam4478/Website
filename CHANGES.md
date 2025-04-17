@@ -1,4 +1,8 @@
-#Changelog
+# Changelog
+
+# 2025-04-17 4 hours
+
+- Added in cards and buttons for the cards in Projects.
 
 ## 2025-04-16 0 hours
 
