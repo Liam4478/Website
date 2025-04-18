@@ -1,12 +1,18 @@
 # Changelog
 
+# 2025-04-18 3 hours
+
+- Removed excess cards  
+- Started to add in two projects. one I have done, one I will do.
+- Changed around the background for dark mode and will be changing the font of the projects tab alongside the cards.
+
 # 2025-04-17 4 hours
 
 - Added in cards and buttons for the cards in Projects.
 
 ## 2025-04-16 0 hours
 
-Sadly, did not do anything today. Rest was required (Somewhat).
+- Sadly, did not do anything today. Rest was required (Somewhat).
 
 ## 2025-04-15 6 hours
 
