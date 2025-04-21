@@ -1,5 +1,17 @@
 # Changelog
 
+# 2025-04-21 2.5 hours
+
+- Started on the Resume page and added the resume in. May want to update Resume.
+
+# 2025-04-20 0 hours
+
+- Did not do anything
+
+# 2025-04-19 0 hours
+
+- Did not do anything
+
 # 2025-04-18 3 hours
 
 - Removed excess cards  

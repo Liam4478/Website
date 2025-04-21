@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const switchInput = document.getElementById('switch');
     const body = document.body;
 
-    // Check localStorage for mode preference
     if (localStorage.getItem('mode') === 'dark') {
         body.classList.add('dark-mode');
         switchInput.checked = true;
