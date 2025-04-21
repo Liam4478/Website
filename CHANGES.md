@@ -1,6 +1,6 @@
 # Changelog
 
-# 2025-04-21 2.5 hours
+# 2025-04-21 3.5 hours
 
 - Started on the Resume page and added the resume in. May want to update Resume.
 
