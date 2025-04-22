@@ -1,11 +1,11 @@
 :root {
-  --background-light: url('Pictures/Skyimage.jpg'); 
-  --background-dark: url('Pictures/Starsimage.jpg'); 
+  --background-light: url('Pictures/Skyimage.jpg');
+  --background-dark: url('Pictures/Starsimage.jpg');
   --text-color-light: #000;
   --text-color-dark: #fff;
-  --navbar-bg-light: #80e8f8; 
+  --navbar-bg-light: #80e8f8;
   --navbar-bg-dark: #111;
-  --link-color-light: #000; 
+  --link-color-light: #000;
   --link-color-dark: #ccc;
   --card-bg-light: #fff;
   --card-bg-dark: #333;
@@ -42,7 +42,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1000; 
+  z-index: 1000;
   transition: background-color 0.5s;
 }
 
@@ -82,7 +82,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1000; 
+  z-index: 1000;
   transition: background-color 0.5s;
 }
 
@@ -141,47 +141,98 @@ body {
 
 @media (max-width: 768px) {
   .desktop-nav {
-      display: none;
+    display: none;
   }
-
   .mobile-nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
-
   .mobile-menu {
-      display: block;
+    display: block;
   }
 }
-
 
 .card-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: stretch; 
+  align-items: stretch;
 }
 
 .card {
+  position: relative;
+  width: 190px;
+  height: 254px;
   background-color: var(--card-bg-light);
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 10px; 
-  padding: 20px;
-  width: 300px;
-  max-width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  justify-content: end;
+  padding: 12px;
+  gap: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: var(--text-color-light);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s, background-color 0.5s;
-  flex-grow: 1; 
+  flex-grow: 1;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  left: -5px;
+  margin: auto;
+  width: 200px;
+  height: 264px;
+  border-radius: 10px;
+  background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100%);
+  z-index: -10;
+  pointer-events: none;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100%);
+  transform: translate3d(0, 0, 0) scale(0.95);
+  filter: blur(20px);
+}
+
+.heading {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.card p:not(.heading) {
+  font-size: 14px;
+}
+
+.card p:last-child {
+  color: #e81cff;
+  font-weight: 600;
+}
+
+.card:hover::after {
+  filter: blur(30px);
+}
+
+.card:hover::before {
+  transform: rotate(-90deg) scaleX(1.34) scaleY(0.77);
 }
 
 .card:hover {
   transform: scale(1.05);
+}
+
+.dark-mode .card {
+  background-color: var(--card-bg-dark);
+  color: var(--text-color-dark);
 }
 
 .card h2 {
@@ -213,21 +264,17 @@ body {
   background-color: var(--card-btn-bg-dark);
 }
 
-.dark-mode .card {
-  background-color: var(--card-bg-dark);
-}
-
 .dark-mode .card-btn {
   background-color: var(--card-btn-bg-dark);
   color: var(--card-btn-text-dark);
 }
 
 .container {
- display: flex;
- flex-wrap: wrap;
- justify-content: center;
- align-items: flex-start;
- height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
 }
 
 .card-btn {
@@ -236,14 +283,13 @@ body {
 }
 
 .card {
-  margin: 10px 10px 0 10px; 
+  margin: 10px 10px 0 10px;
 }
 
 .move-down {
-  margin-top: 30vh; 
+  margin-top: 30vh;
   font-size: 2.5rem;
 }
-
 
 .pdf-viewer {
   width: 100%;
@@ -252,7 +298,7 @@ body {
   margin-top: 1rem;
   border-radius: 8px;
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
-  overflow: auto; 
+  overflow: auto;
 }
 
 .pdf-card-container {
@@ -262,14 +308,14 @@ body {
   align-items: stretch;
   width: 80%;
   max-width: 800px;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 .about-card {
   background-color: var(--card-bg-light);
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 10px; 
+  margin: 10px;
   padding: 20px;
   width: 500px;
   max-width: 100%;
@@ -279,12 +325,9 @@ body {
   align-items: center;
   text-align: center;
   transition: transform 0.2s, background-color 0.5s;
-  flex-grow: 1; 
+  flex-grow: 1;
 }
 
 .dark-mode .about-card {
   background-color: var(--card-bg-dark);
 }
-
-
-    

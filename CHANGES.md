@@ -1,8 +1,10 @@
 # Changelog
 
-# 2025-04-22 .5 hours
+# 2025-04-22 2.5 hours
 
-- Worked on About me page and what it will say. I Will update it further down the line.
+- Worked on About me page and what it will say. I will update it further down the line.
+
+- Added a new design to the cards on the project page. It glows on the outside.
 
 # 2025-04-21 3.5 hours
 
