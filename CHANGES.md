@@ -1,5 +1,11 @@
 # Changelog
 
+# 2025-04-23 2 hours
+
+- Bolded the text in the Navigation bar. 
+
+- Added in Contact information and links to both my Website Github and my LinkedIn.
+
 # 2025-04-22 2.5 hours
 
 - Worked on About me page and what it will say. I will update it further down the line.
