@@ -4,6 +4,8 @@
 
 - Added in a design for the navigation bar to make it look nicer. Still need to implement light and dark mode features.
 
+- Updated the design of the buttons on the projects page.
+
 # 2025-04-23 2 hours
 
 - Bolded the text in the Navigation bar. 
