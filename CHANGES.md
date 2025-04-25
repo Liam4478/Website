@@ -1,8 +1,10 @@
 # Changelog
 
-# 2025=04-25 2hours
+# 2025=04-25 4 hours
 
 - Made it so that navbar buttons have a different style fopr light and dark modes.
+
+- Added in the mobile navigation bar fix it needed. Will add light and dark mode as well as other designs soon.
 
 # 2025-04-24 2 hours
 
