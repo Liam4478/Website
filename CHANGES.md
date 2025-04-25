@@ -1,5 +1,9 @@
 # Changelog
 
+# 2025=04-25 2hours
+
+- Made it so that navbar buttons have a different style fopr light and dark modes.
+
 # 2025-04-24 2 hours
 
 - Added in a design for the navigation bar to make it look nicer. Still need to implement light and dark mode features.

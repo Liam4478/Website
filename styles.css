@@ -5,7 +5,7 @@
   --text-color-dark: #fff;
   --navbar-bg-light: #80e8f8;
   --navbar-bg-dark: #111;
-  --link-color-light: #000;
+  --link-color-light: #fff;
   --link-color-dark: #ccc;
   --card-bg-light: #fff;
   --card-bg-dark: #333;
@@ -13,6 +13,31 @@
   --card-btn-bg-dark: #0056b3;
   --card-btn-text-light: #fff;
   --card-btn-text-dark: #fff;
+
+/* Light mode button settings */
+--btn-default-bg: black; 
+--btn-padding: 15px 20px;
+--btn-hover-bg: black; 
+--btn-transition: 0.3s;
+--btn-letter-spacing: 0.1rem;
+--btn-animation-duration: 1.2s;
+--btn-shadow-color: orange; 
+--btn-shadow: 0 2px 10px 0 var(--btn-shadow-color);
+--hover-btn-color: orange; 
+--default-btn-color: #fff; 
+--font-size: 16px;
+--font-weight: 600;
+--font-family: Menlo, Roboto Mono, monospace;
+border-radius: 6em;
+}
+
+.dark-mode {
+  --btn-default-bg: black;
+  --btn-hover-bg: rgb(0, 0, 0); 
+  --btn-shadow-color: rgb(100, 3, 156); 
+  --btn-shadow: 0 2px 10px 0 var(--btn-shadow-color);
+  --hover-btn-color: rgb(100, 3, 156);
+  --default-btn-color: #fff; 
 }
 
 body {
@@ -71,7 +96,6 @@ body {
   transition: color 0.5s;
   font-weight: bold;
   font-size: 18px;
-  color: rgb(255, 255, 255);
 }
 
 /* Mobile Navbar */
@@ -107,7 +131,7 @@ body {
   padding: 0;
   margin: 0;
   position: fixed;
-  top: 50px; 
+  top: 50px; /* Adjust this value based on the height of your mobile nav */
   width: 100%;
   transition: background-color 0.5s;
   font-size: 18px;
@@ -489,24 +513,6 @@ body {
 }
 
 .buttonpro {
-  --btn-default-bg: black;
-  --btn-padding: 15px 20px;
-  --btn-hover-bg: rgb(142, 3, 197);
-  --btn-transition: 0.3s;
-  --btn-letter-spacing: 0.1rem;
-  --btn-animation-duration: 1.2s;
-  --btn-shadow-color: rgb(142, 3, 197);
-  --btn-shadow: 0 2px 10px 0 var(--btn-shadow-color);
-  --hover-btn-color: #7241ff;
-  --default-btn-color: #fff;
-  --font-size: 16px;
-  --font-weight: 600;
-  --font-family: Menlo, Roboto Mono, monospace;
-  border-radius: 6em;
-}
-
-
-.buttonpro {
   box-sizing: border-box;
   padding: var(--btn-padding);
   display: flex;
@@ -537,19 +543,21 @@ body {
   content: "";
   background: inherit;
 }
+
 .buttonpro:focus {
   scale: 1.09;
 }
+
 .buttonpro:hover,
 .buttonpro:focus {
-  background: var(--btn-default-bg);
+  background: var(--btn-hover-bg);
   box-shadow: 0px 0px 10px 0px rgba(119, 68, 255, 0.7);
-  border: 2px solid rgb(142, 3, 197);
+  border: 2px solid var(--btn-shadow-color);
 }
 
 .buttonpro:hover span,
 .buttonpro:focus span {
-  color:rgb(142, 3, 197);
+  color: var(--hover-btn-color); 
 }
 
 .buttonpro:hover span::before,
@@ -647,5 +655,3 @@ body {
     right: 0;
   }
 }
-
-
