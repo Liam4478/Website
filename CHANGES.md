@@ -1,6 +1,6 @@
 # Changelog
 
-# 20250-04-25 4 hours
+# 2025-04-25 4 hours
 
 - Made it so that navbar buttons have a different style fopr light and dark modes.
 
