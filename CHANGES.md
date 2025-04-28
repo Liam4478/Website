@@ -1,5 +1,13 @@
 # Changelog
 
+# 2025-04-27 0 hours
+
+- Enjoyed the hike and time at the park. No work done
+
+# 2025-04-26 0 hours
+
+- Enjoyed your talk at CPOSC. No work done.
+
 # 2025-04-25 4 hours
 
 - Made it so that navbar buttons have a different style fopr light and dark modes.
