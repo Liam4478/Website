@@ -1,5 +1,9 @@
 # Changelog
 
+# 2025-04-28 3 hours
+
+- Set up the Articles page within the Projects page and linked both of them together with special effects when hovering the button.
+
 # 2025-04-27 0 hours
 
 - Enjoyed the hike and time at the park. No work done

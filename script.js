@@ -49,7 +49,19 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Card show/hide toggles
+
+    document.getElementById("Projects Page").addEventListener("click", function() {
+         window.location.href = "projects.html";
+        });
+
+    
+    document.getElementById("Articles Page").addEventListener("click", function() {
+     window.location.href = "articles.html";
+    });
+    
+           
+
+
     const showCard1Btn = document.getElementById('showCard1Btn');
     const hideCard1Btn = document.getElementById('hideCard1Btn');
     const card1 = document.getElementById('card1');
