@@ -34,9 +34,9 @@ border-radius: 6em;
 .dark-mode {
   --btn-default-bg: black;
   --btn-hover-bg: rgb(0, 0, 0); 
-  --btn-shadow-color: rgb(100, 3, 156); 
+  --btn-shadow-color: rgb(153, 6, 221); 
   --btn-shadow: 0 2px 10px 0 var(--btn-shadow-color);
-  --hover-btn-color: rgb(100, 3, 156);
+  --hover-btn-color: rgb(153, 6, 221);
   --default-btn-color: #fff; 
 }
 
