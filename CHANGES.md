@@ -1,5 +1,11 @@
 # Changelog
 
+# 2025-04-29 2 hours
+
+- Set up a page within the Articles page of my website and set up the two html card pages on the projects page.
+
+- Added space in between each button on the mobile navbar.
+
 # 2025-04-28 3 hours
 
 - Set up the Articles page within the Projects page and linked both of them together with special effects when hovering the button.

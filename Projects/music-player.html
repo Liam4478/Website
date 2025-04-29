@@ -1,23 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../articlesback.css">
+    
+    <title>Music Player</title>
+    <style>
+        body {
+            height: 100vh;
+            margin: 0;
+            background-image: url('../Pictures/blacksand.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            color: antiquewhite;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../background.css">
-        <link rel="stylesheet" href="../switch.css">
+        button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
 
-
-        <title>Music Player</title>
-
-    </head>
-
-    <body>
-        <home>
-
-            <h1 style="text-align: center;">Creating a Music Player.</h1>
-
-
-        </home>
-    </body>
+        .content {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            margin-top: 45px;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <a href="../projects.html">
+        <button><span class="main-text"><span>← </span> Back<span></span></span></button>
+    </a>
+    
+    <div class="content">
+        <h1 style="text-align: center;"> My Music Player</h1>
+    </div>
+    
+    <script>
+        window.onload = function() {
+            document.body.style.opacity = 1;
+        };
+    </script>
+</body>
 </html>

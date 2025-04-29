@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../articlesback.css">
     
-    <title>Budget Calculator</title>
+    <title>Datacenter Build Proposal</title>
     <style>
         body {
-            height: 100vh;
+            height: 100%;
             margin: 0;
             background-image: url('../Pictures/blacksand.png');
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
             color: antiquewhite;
             opacity: 0;
             transition: opacity 1s ease-in-out;
@@ -24,24 +27,24 @@
             top: 20px;
             left: 20px;
         }
-
-        .content {
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            margin-top: 45px;
-            align-items: center;
-        }
     </style>
 </head>
 <body>
     
-    <a href="../projects.html">
+    <a href="../articles.html">
         <button><span class="main-text"><span>← </span> Back<span></span></span></button>
     </a>
     
-    <div class="content">
-        <h1 style="text-align: center;">Creating a Budget Calculator.</h1>
+    <div class="pdf-card-container">
+        <h1 style="text-align: center;">Datacenter Proposal</h1>
+        <iframe src="Article Components/DatacenterProposal.pdf" class="pdf-viewer" title="PDF Viewer" width="600" height="780">
+            <p>Your browser does not support viewing this document. You can <a href="Resume/Resume.pdf">download the resume here</a>.</p>
+        </iframe>
+        <br>
+        <br>
+        <iframe src="Article Components/EquipmentChart.pdf" class="pdf-viewer" title="PDF Viewer" width="600" height="780">
+            <p>Your browser does not support viewing this document. You can <a href="Resume/Resume.pdf">download the resume here</a>.</p>
+        </iframe>
     </div>
     
     <script>
