@@ -59,6 +59,18 @@ document.addEventListener('DOMContentLoaded', () => {
      window.location.href = "articles.html";
     });
     
+    
+
+ document.addEventListener("DOMContentLoaded", () => {
+ document.body.classList.add("fade-in");
+ });
+
+ window.addEventListener("beforeunload", () => {
+ document.body.classList.remove("fade-in");
+ document.body.classList.add("fade-out");
+ });
+
+
            
 
 

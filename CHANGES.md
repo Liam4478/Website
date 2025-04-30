@@ -1,5 +1,9 @@
 # Changelog
 
+# 2025-04-30 0.5 hours
+
+- Made a transistion for the pages and added an icon on the tab.
+
 # 2025-04-29 2 hours
 
 - Set up a page within the Articles page of my website and set up the two html card pages on the projects page.
