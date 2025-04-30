@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const mobileMenu = document.getElementById('mobileMenu');
     let lastScrollTop = 0;
 
-    // Handle scroll behavior
+   
     window.addEventListener('scroll', () => {
         if (window.scrollY === 0) {
             navbar.style.top = '0';
@@ -13,14 +13,14 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Toggle mobile menu with animation and accessibility
+    
     hamburger.addEventListener('click', () => {
         mobileMenu.classList.toggle('open');
         hamburger.classList.toggle('active');
         hamburger.setAttribute('aria-expanded', hamburger.classList.contains('active'));
     });
 
-    // Close mobile menu when link is clicked
+    
     document.querySelectorAll('.mobile-menu a').forEach(link => {
         link.addEventListener('click', () => {
             mobileMenu.classList.remove('open');
@@ -69,10 +69,6 @@ document.addEventListener('DOMContentLoaded', () => {
  document.body.classList.remove("fade-in");
  document.body.classList.add("fade-out");
  });
-
-
-           
-
 
     const showCard1Btn = document.getElementById('showCard1Btn');
     const hideCard1Btn = document.getElementById('hideCard1Btn');

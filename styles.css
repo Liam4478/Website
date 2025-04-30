@@ -166,10 +166,11 @@
   display: block;
   width: 25px;
   height: 3px;
-  background-color: var(--link-color-light);
+  background-color: #fff;
   margin: 5px 0;
   transition: background-color 0.5s;
 }
+  
 
 .hamburger.active span:nth-child(1) {
   transform: rotate(45deg) translate(5px, 5px);
@@ -217,7 +218,6 @@
 }
 
 .dark-mode .nav-links a,
-.dark-mode .hamburger span,
 .dark-mode .mobile-menu {
   background-color: var(--navbar-bg-dark);
 }
