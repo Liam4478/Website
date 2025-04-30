@@ -1,8 +1,10 @@
 # Changelog
 
-# 2025-04-30 0.5 hours
+# 2025-04-30 3 hours
 
 - Made a transistion for the pages and added an icon on the tab.
+
+- Made the mobile navbar different from the desktop navbar with animations working on both.
 
 # 2025-04-29 2 hours
 
