@@ -1,5 +1,9 @@
 # Changelog
 
+# 2025-05-01 0.5 hours 
+
+- Added in the Answer File documentation and changed up some other things.
+
 # 2025-04-30 3 hours
 
 - Made a transistion for the pages and added an icon on the tab.
