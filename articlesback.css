@@ -1,8 +1,7 @@
-/* From Uiverse.io by sabbircoder07 */ 
 button {
     font-family: "Lexend Deca", sans-serif;
     border: none;
-    background-image: linear-gradient(to right top, #5FFBF1,#D16BA5,#86A8E7);
+    background-image: linear-gradient(to right top, #5FFBF1, #D16BA5, #86A8E7);
     color: #ffffff;
     font-size: 17px;
     text-transform: capitalize;
@@ -20,7 +19,7 @@ button {
   
   button:hover {
     transform: translateY(-3px);
-    background-image: linear-gradient(to bottom, #D16BA5,#86A8E7,#5FFBF1);
+    background-image: linear-gradient(to bottom, #D16BA5, #86A8E7, #5FFBF1);
     border-radius: 26px;
     animation: pulsate 1s infinite;
   }
@@ -53,3 +52,23 @@ button {
       box-shadow: none;
     }
   }
+  
+  /* Styles for mobile devices */
+  @media (max-width: 768px) {
+    button {
+      width: 70px;
+      height: 40px; 
+      font-size: 12px; 
+      padding: 5px 10px; 
+      transform: skew(0deg); 
+      top: 10px; 
+      left: 10px; 
+      position: absolute; 
+    }
+  
+    button:hover {
+      transform: translateY(-2px); 
+      border-radius: 15px; 
+    }
+  }
+  

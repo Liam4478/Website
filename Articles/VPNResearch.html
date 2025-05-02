@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../articlesback.css">
+    
+    <title>VPN Research</title>
+    <link rel="website icon" type="png" href="../Pictures/tabicon.png">
+    <style>
+        body {
+            height: 100%;
+            margin: 0;
+            background-image: url('../Pictures/blacksand.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            color: antiquewhite;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+
+        button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+    <a href="../articles.html">
+        <button><span class="main-text"><span>← </span> Back<span></span></span></button>
+    </a>
+    
+    <div class="pdf-card-container">
+        <h1 style="text-align: center;">VPN Research</h1>
+        <iframe src="Article Components/VPNs.pdf" class="pdf-viewer" title="PDF Viewer" width="600" height="780">
+            <p>Your browser does not support viewing this document. You can <a href="Article Components/VPNs.pdf">download the VPN research document here</a>.</p>
+        </iframe>
+    
+    <script>
+        window.onload = function() {
+            document.body.style.opacity = 1;
+        };
+    </script>
+</body>
+</html>

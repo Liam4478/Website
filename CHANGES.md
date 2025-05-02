@@ -1,5 +1,13 @@
 # Changelog
 
+# 2025-05-02 3 hours
+
+- Added in the VPN research I did and Answer file documentation.
+
+- Changed the cart design to fit the card and more.
+
+- Fixed card issue and fixed the back button on mobile.
+
 # 2025-05-01 0.5 hours 
 
 - Added in the Answer File documentation and changed up some other things.
