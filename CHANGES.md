@@ -1,5 +1,13 @@
 # Changelog
 
+# 2025-05-04 0 hours
+
+- Nothing done
+
+# 2025-05-03 0 hours
+
+- Very little done to note
+
 # 2025-05-02 3 hours
 
 - Added in the VPN research I did and Answer file documentation.
