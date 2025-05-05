@@ -1,5 +1,11 @@
 # Changelog
 
+# 2025-05-05 8 hours
+
+- Worked for 8 hours on trying to make my budget calculator become an executable that doesn't break my computer. No luck yet.
+
+- Some worked most of the time my Microsoft Edge would turn pitch black and would stop respponding. My computer would react negatively toward this executable.
+
 # 2025-05-04 0 hours
 
 - Nothing done
