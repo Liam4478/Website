@@ -1,4 +1,4 @@
-button {
+button{
     font-family: "Lexend Deca", sans-serif;
     border: none;
     background-image: linear-gradient(to right top, #5FFBF1, #D16BA5, #86A8E7);
@@ -71,4 +71,70 @@ button {
       border-radius: 15px; 
     }
   }
+
+  .github-button {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background: linear-gradient(120deg, #2b2a2a, #6200a3, #292929);
+    position: relative;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .github-button svg {
+    color: white;
+    width: 30px;
+    height: 30px;
+    z-index: 1;
+  }
+  
+  .github-button:nth-child(2) {
+    background: #333; 
+  }
+  
+  .github-button:active {
+    transform: scale(0.85);
+  }
+  
+  .github-button::before {
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background-color: #212121;
+    border-radius: 50%;
+    z-index: -1;
+    transition: width 0.4s, height 0.4s;
+  }
+  
+  .github-button:hover::before {
+    width: 0;
+    height: 0;
+  }
+  
+  .github-button:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
   
