@@ -1,10 +1,12 @@
 # Changelog
 
-# 2025-05-06 3 hours
+# 2025-05-06 5 hours
 
 - Made a different executable that runs the python script when double clicked and will start it up automatically with a hidden command line so it just looks like the form is the only thing that runs.
 
 -Updated the budget calculator page.
+
+- Mostly finished the budget calculator page. Although I couldn't do exactly what I wanted to.
 
 # 2025-05-05 8 hours
 
