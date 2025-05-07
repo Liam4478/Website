@@ -1,5 +1,9 @@
 # Changelog
 
+# 2025-05-07 3 hours
+
+- Worked on my Music Player that I will be showing off in my projects section. Will update it and add it tomorrow.
+
 # 2025-05-06 5 hours
 
 - Made a different executable that runs the python script when double clicked and will start it up automatically with a hidden command line so it just looks like the form is the only thing that runs.
