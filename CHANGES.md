@@ -1,5 +1,15 @@
 # Changelog
 
+# 2025-05-08 2 hours
+
+- Added some more things to the Music Player.
+
+- Added it to my website to view. 
+
+- Linked both my GitHub and the person's GitHub that this was inspired by.
+
+- Worked on the Music Player page.
+
 # 2025-05-07 3 hours
 
 - Worked on my Music Player that I will be showing off in my projects section. Will update it and add it tomorrow.
