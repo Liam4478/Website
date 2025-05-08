@@ -1,6 +1,6 @@
 # Changelog
 
-# 2025-05-08 2 hours
+# 2025-05-08 2.5 hours
 
 - Added some more things to the Music Player.
 
@@ -9,6 +9,10 @@
 - Linked both my GitHub and the person's GitHub that this was inspired by.
 
 - Worked on the Music Player page.
+
+- Fixed errors that I ran into and mistakes that I had made for many different variants.
+
+- Added different tab picture variants for projects and articles.
 
 # 2025-05-07 3 hours
 
