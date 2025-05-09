@@ -1,5 +1,19 @@
 # Changelog
 
+# 2025-05-09 4 hours
+
+- Fixed the bug from going to dektop mobile view to full screen.
+
+- Added animation the the navbar.
+
+- Added a button to the home screen. Will add picture next week.
+
+- Updated About Me page to look better and increased what was said.
+
+- Changed the color of the card hover in projects and articles page to fit the light mode orange theme.
+
+- Tweaked the text in the buttons and removed the underline.
+
 # 2025-05-08 2.5 hours
 
 - Added some more things to the Music Player.
