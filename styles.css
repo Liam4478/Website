@@ -95,7 +95,12 @@
   }
   
   body {
-   height: 100vh;
+  min-height: 100vh;
+  height: auto;
+  background-image: var(--background-light);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
    margin: 0;
    background-image: var(--background-light);
    background-size: cover;
@@ -241,9 +246,13 @@
 }
 
 .mobile-menu.open {
-  max-height: 400px;
-  padding: 10px 20px;
+max-height: none;
+ height: auto;
+  max-height: 90vh; 
+ overflow-y: auto;
+ padding: 10px 20px;
 }
+
 
 
 @media (min-width: 769px) {

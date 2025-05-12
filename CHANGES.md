@@ -1,5 +1,9 @@
 # Changelog
 
+# 2025-05-12 1 hour
+
+- Tried to fix a dropdown bug on specifically one monitor. It looks ok but not as good as I wanted it look like.
+
 # 2025-05-11 0 hours
 
 - Did not contribute.
