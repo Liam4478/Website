@@ -72,9 +72,6 @@
   hsl(275 calc(var(--active) * 100%) calc(12% - (var(--active) * 8%)));
 }
 
-  
-  
-
 .dark-mode {
   --btn-default-bg: black;
   --btn-hover-bg: rgb(0, 0, 0); 
@@ -94,7 +91,16 @@
    }
   }
   
-  body {
+  
+.circular-image {
+ width: 240px;
+ height: 240px;
+ border-radius: 50%;
+ object-fit: cover; 
+ }
+
+
+body {
   min-height: 100vh;
   height: auto;
   background-image: var(--background-light);
@@ -533,7 +539,7 @@ body:not(.dark-mode) .card-button:active {
 }
 
 .move-down {
-  margin-top: 30vh;
+  margin-top: 20vh;
   font-size: 2.5rem;
 }
 
@@ -978,6 +984,7 @@ a.space-button {
   transform-style: preserve-3d;
   perspective: 100vmin;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 
